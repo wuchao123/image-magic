@@ -1,6 +1,6 @@
 # Image Magic
 
-官网：
+官网(即将上线)：
 [www.image-magic.cn](https://www.image-magic.cn)
 
 Image Magic是采用了NGTR贴合渲染技术方案的新一代图像渲染引擎。能让新图像像真实印制一样严丝合缝地贴合在图品的形状与纹理上。
