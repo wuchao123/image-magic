@@ -138,9 +138,9 @@
 
         .layer-properties {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 15px;
-            margin-bottom: 15px;
+            grid-template-columns: 1fr;
+            gap: 5px;
+            margin-bottom: 5px;
         }
 
         .layer-preview {
