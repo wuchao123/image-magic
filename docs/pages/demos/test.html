@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>长裙换肤渲染</title>
+    <script  src ="/assets/sdk/image-magic-sdk_read_v24.17.15.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/demo.css" defer/>
+</head>
+<body>
+<div class="container">
+    <h1>长裙换肤渲染</h1>
+     <div class="main-content">
+        <!-- 左侧：模板输入和预览 -->
+        <div>
+            <!-- 模板输入区域 -->
+            <div class="section">
+                <h2>模板区域</h2>
+                <div class="input-group">
+                    <label>本地文件</label>
+                    <label id="template_file_url">/assets/models/长裙_颜色修复_滑_舞蹈_small_800花纹.imgf</label>
+                </div>
+                <!-- 状态消息 -->
+                <div id="statusMessage"></div>
+            </div>
+            <!-- 模板预览框 -->
+            <div class="section">
+                <h2>模板预览框</h2>
+                <div class="canvas-container">
+                    <canvas id="templateCanvas" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </body>

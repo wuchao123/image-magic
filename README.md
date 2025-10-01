@@ -26,3 +26,12 @@ Image Magic 提供了一套类似PhotoShop的编辑器，可以生产图像文�
 [![Image-Magic](/assets/images/cases/面料_面白.png)](/assets/images/cases/面料_面白.png)
 
 
+## 在线演示
+
+<a href="/pages/demos/long_skirt_smooth.html" target="_blank">👉 在线演示：长裙贴合渲染效果</a>
+
+
+[长裙贴合渲染效果演示](/pages/demos/long_skirt_smooth.html)
+
+
+
