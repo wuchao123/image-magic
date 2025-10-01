@@ -80,7 +80,7 @@ Layer 对象关键属性:
     *   **示例**：
     ```javascript
     //示例一， 从URL加载
-    fetch(url)
+    fetch(url,{cache:"force-cache"})
            //读取HTTP 响应
             .then(response => {
                 if (!response.ok) {
@@ -97,6 +97,10 @@ Layer 对象关键属性:
             .then(imageMagicDoc => {
                 console.log('[URL-Load] 解析ImageMagicFile成功');
             })
+            .catch(error => {
+                console.error('[URL-Load-Error]', error);
+                displayMessage('加载失败：' + error.message, true);
+            });
 
     //示例2， 从本地文件加载  
     //templateFile为HTML文件输入元素  <input type="file" id="templateFile"/>
@@ -114,6 +118,10 @@ Layer 对象关键属性:
                 //compositor.setDocument(imageMagicDoc)
 
             })
+            .catch(error => {
+                console.error('[File-Load-Error]', error);
+                displayMessage('加载失败：' + error.message, true);
+            });
     ```
 2.  读取各层信息
 
@@ -124,8 +132,10 @@ Layer 对象关键属性:
     //我们总是想让最上面的图层显示在最前面
     //特别注意：不要直接reverse 原图层列表（layersList.reverse()），这将影响DOC原结构，结果不可预知
     //无论何时，总应该写无副作用的代码
-    const displayLayers = [...layersList].reverse();
-
+    ////过滤掉隐藏图层
+    const displayLayers = [...layersList]
+                            .reverse()
+                            .filter(layer => layer.visible);
 
     displayLayers.forEach(layer)=> {
             const layerId = layer.id;
