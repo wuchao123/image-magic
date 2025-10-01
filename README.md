@@ -1,6 +1,10 @@
 # Image Magic
 
-官网(即将上线)：
+
+## 在线演示
+[长裙贴合渲染效果演示](https://wuchao123.github.io/image-magic/pages/demos/long_skirt_smooth.html)
+
+## 官网(即将上线)
 [www.image-magic.cn](https://www.image-magic.cn)
 
 Image Magic是采用了NGTR贴合渲染技术方案的新一代图像渲染引擎。能让新图像像真实印制一样严丝合缝地贴合在图品的形状与纹理上。
@@ -28,10 +32,9 @@ Image Magic 提供了一套类似PhotoShop的编辑器，可以生产图像文�
 
 ## 在线演示
 
-<a href="/pages/demos/long_skirt_smooth.html" target="_blank">👉 在线演示：长裙贴合渲染效果</a>
-
-
 [长裙贴合渲染效果演示](https://wuchao123.github.io/image-magic/pages/demos/long_skirt_smooth.html)
+
+
 
 
 
