@@ -2,6 +2,9 @@
 
 
 ## 在线试用/enjoy it
+
+github 初次加载有点慢 ，多刷几次/耐心等待.
+
 [长裙贴合渲染](https://wuchao123.github.io/image-magic/pages/demos/long_skirt_smooth.html)
 
 
@@ -11,10 +14,7 @@
 [农村电线杆涂鸦](https://wuchao123.github.io/image-magic/pages/demos/graffiti_on_utility_poles.html)
 
 
-
 [棉花面料印花](https://wuchao123.github.io/image-magic/pages/demos/fabric_cotton_white.html)
-
-
 
 
 
