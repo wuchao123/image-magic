@@ -1,8 +1,10 @@
 # Image Magic
 
 
-## 在线演示
+## 在线演示/enjoy it
 [长裙贴合渲染效果演示](https://wuchao123.github.io/image-magic/pages/demos/long_skirt_smooth.html)
+
+
 
 ## 官网(即将上线)
 [www.image-magic.cn](https://www.image-magic.cn)
