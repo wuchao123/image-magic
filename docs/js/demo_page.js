@@ -36,10 +36,12 @@
         statusDiv.className = `status-message ${isError ? 'status-error' : 'status-success'}`;
         statusDiv.textContent = message;
 
+        /*
         setTimeout(() => {
             statusDiv.textContent = '';
             statusDiv.className = '';
         }, 3000);
+        */
     }
 
     // 页面初始化
