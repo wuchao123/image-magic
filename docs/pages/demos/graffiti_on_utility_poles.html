@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Magic 在线演示</title>
+    <script  src ="/image-magic/sdk/image-magic-sdk_read_v24.17.15.js" defer></script>
+    <link rel="stylesheet" href="/image-magic/css/demo.css" defer/>
+</head>
+<body>
+<div class="container">
+    <h1 id="pageTitle">Image Magic 在线演示</h1>
+     <div class="main-content">
+        <!-- 左侧：模板输入和预览 -->
+        <div>
+            <!-- 模板输入区域 -->
+            <div class="section">
+                <h2>模板区域</h2>
+                <div class="input-group">
+                    <label>本地文件</label>
+                    <label id="template_file_url">/assets/models/长裙_颜色修复_滑_舞蹈_small_800花纹.imgf</label>
+                </div>
+                <!-- 状态消息 -->
+                <div id="statusMessage"></div>
+            </div>
+            <!-- 模板预览框 -->
+            <div class="section">
+                <h2>模板预览框</h2>
+                <div class="canvas-container">
+                    <canvas id="templateCanvas" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- 中间：图层区域 -->
+        <div class="section">
+            <h2>图层区域</h2>
+            <div id="layersContainer">
+                <!-- 图层将通过JavaScript动态生成 -->
+            </div>
+        </div>
+
+        <!-- 右侧：渲染结果 -->
+        <div class="render-result">
+            <h2>渲染结果</h2>
+            <div id="render-canvas-container" class="render-canvas-container">
+                <canvas id="renderCanvas" width="500" height="500"></canvas>
+            </div>
+            <div style="margin-top: 15px; text-align: center;">
+                <button class="btn btn-primary" onclick="renderResult()">生成渲染结果</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+  window.DEMO_CONDIG = {
+        page_title:"电线杆涂鸦",
+        // 这里可以添加一些全局配置参数
+        demo_file_url: '/image-magic/models/电线杆_800x800_logo_800X450.imgf',
+        //没用到的参数 示例
+        demo_materials: [
+            { name: '花纹', url: '/assets/images/materials/花纹.png' },
+            { name: '蓝色', url: '/assets/images/materials/蓝色.png' },
+            { name: '红色', url: '/assets/images/materials/红色.png' },
+            { name: '黄色', url: '/assets/images/materials/黄色.png' },
+            { name: '绿色', url: '/assets/images/materials/绿色.png' },
+            { name: '紫色', url: '/assets/images/materials/紫色.png' }
+        ]
+ };
+
+</script>
+<script src="/image-magic/js/demo_page.js" defer></script>
+</body>

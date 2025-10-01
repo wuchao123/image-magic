@@ -1,8 +1,21 @@
 # Image Magic
 
 
-## 在线演示/enjoy it
-[长裙贴合渲染效果演示](https://wuchao123.github.io/image-magic/pages/demos/long_skirt_smooth.html)
+## 在线试用/enjoy it
+[长裙贴合渲染](https://wuchao123.github.io/image-magic/pages/demos/long_skirt_smooth.html)
+
+
+[杭州延安路户外广告](https://wuchao123.github.io/image-magic/pages/demos/hz_yan_an_road_outdoor_advertising.html)
+
+
+[农村电线杆涂鸦](https://wuchao123.github.io/image-magic/pages/demos/graffiti_on_utility_poles.html)
+
+
+
+[棉花面料印花](https://wuchao123.github.io/image-magic/pages/demos/fabric_cotton_white.html)
+
+
+
 
 
 

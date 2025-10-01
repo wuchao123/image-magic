@@ -14,6 +14,12 @@
 
     //初始装载模板
     function initializeTemplate() {
+
+        const page_title = window.DEMO_CONDIG.page_title || "Image Magic在线演示";
+
+        document.title = page_title;
+        document.getElementById('pageTitle').textContent = page_title;
+
         const file_url  = window.DEMO_CONDIG.demo_file_url;
         if (file_url) {
             loadTemplateUrl(file_url);
