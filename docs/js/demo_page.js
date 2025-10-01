@@ -224,8 +224,8 @@
 
         displayMessage('正在加载模板文件...');
 
-        // 使用 fetch 加载二进制文件
-        fetch(fileUrl)
+        // 使用 fetch 加载二进制文件 先查本地缓存
+        fetch(fileUrl,{cache:"force-cache"})
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
