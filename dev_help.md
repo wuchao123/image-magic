@@ -40,8 +40,8 @@ JS版Image-magic sdk 是一个浏览器环境下高效完成图层图像替换�
 ### 1，核心对象
 |       名称               |              含义           |
 |:------------------------|:----------------------------|
-| window.ImageMagicSDK    | 类型：对象。由SDK提供，载入SDK后自动写入window对象。主要作用文件读取到内存、操作换图等。|
-| window.ImageMagicSDK.LayerCompositor()    | 类型：构造函数。作用：图像的渲染管线。通常一个模板对应一个渲染管线对象。它是有状态的，能够加速渲染。|
+| window.ImageMagicSDK    | 类型：对象。由SDK提供，加载SDK后自动载入到window对象上。主要作用是读取模板文件到内存、操作换图等。|
+| window.ImageMagicSDK.LayerCompositor()    | 类型：构造函数。作用：图像的渲染管线，输出渲染图像的。通常一个模板对应一个渲染管线对象。它是有状态的，能够加速渲染。|
 |ImageMagicDoc             |类型：对象。内存中的模板对象，通过ImageMagicSDK.readImageMagicFile(buffer) 获得。|
 |Layer                     |类型：对象。图层，ImageMagicDoc上的layers属性的元素。|
 
