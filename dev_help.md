@@ -268,7 +268,7 @@ Layer 对象关键属性:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>模板编辑器</title>
     <!--script  src ="/assets/sdk/image-magic-sdk_v22.8.15.js" ></script -->
-    <script  src ="https://www.image-magic.cn/assets/sdk/image-magic-sdk_read_v24.17.15.js" ></script>
+    <script  src ="https://www.image-magic.cn/assets/sdk/image-magic-sdk_read_v26.33.19.js" ></script>
 
     <style>
         * {
